@@ -193,10 +193,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
-    vendor/leeco/x2/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/leeco/x2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/leeco/x2/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/leeco/x2/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/leeco/x2/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/leeco/x2/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
@@ -993,7 +991,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     UEIQuicksetSDKLeTV \
     datastatusnotification \
-    embms \
     fastdormancy \
     shutdownlistener \
     CNEService \
@@ -1013,7 +1010,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location.vzw_library \
     com.quicinc.cne \
     dpmapi \
-    embmslibrary \
     imscmlibrary \
     izat.xt.srv \
     qcnvitems \
