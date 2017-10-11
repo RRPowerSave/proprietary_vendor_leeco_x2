@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/app/LetvRemoteControl/lib/arm/libyzs_usc.so:system/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
     vendor/leeco/x2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/leeco/x2/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/leeco/x2/proprietary/bin/cnd:system/bin/cnd \
     vendor/leeco/x2/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/leeco/x2/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/leeco/x2/proprietary/bin/dpmd:system/bin/dpmd \
@@ -532,7 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/leeco/x2/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/leeco/x2/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -827,7 +827,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
