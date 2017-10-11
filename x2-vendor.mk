@@ -101,8 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/camera/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/leeco/x2/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
-    vendor/leeco/x2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/leeco/x2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/x2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/leeco/x2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/leeco/x2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
@@ -183,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/listen_platform_info.xml:system/etc/listen_platform_info.xml \
     vendor/leeco/x2/proprietary/etc/mixer_paths_letv.xml:system/etc/mixer_paths_letv.xml \
     vendor/leeco/x2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/leeco/x2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.android.ims.rcsmanager.xml:system/etc/permissions/com.android.ims.rcsmanager.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -191,7 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
-    vendor/leeco/x2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/leeco/x2/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/leeco/x2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
@@ -529,9 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/leeco/x2/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/leeco/x2/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -826,9 +819,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
@@ -993,7 +983,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
-    CNEService \
     QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
@@ -1003,12 +992,10 @@ PRODUCT_PACKAGES += \
     imssettings \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
-    cneapiclient \
     com.qti.dpmframework \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.location.vzw_library \
-    com.quicinc.cne \
     dpmapi \
     imscmlibrary \
     izat.xt.srv \
